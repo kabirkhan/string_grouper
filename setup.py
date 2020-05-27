@@ -20,10 +20,10 @@ setup(
     author_email='fake_email@gmail.com',
     url='https://github.com/Bergvca/string_grouper',
     zip_safe=False,
-    python_requires='>3.7',
+    python_requires='>3.6',
     install_requires=['pandas>=0.25.3'
                       , 'scipy'
-                      , 'sklearn'
+                      , 'scikit-learn'
                       , 'numpy'
                       , 'sparse_dot_topn>=0.2.6'
                       ]
